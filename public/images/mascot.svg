@@ -1,0 +1,43 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 360' width='300' height='360'>
+  <defs>
+    <linearGradient id='bgBg' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#1a2a6c'/>
+      <stop offset='100%' stop-color='#2a3a7c'/>
+    </linearGradient>
+    <linearGradient id='dropGrad' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' stop-color='#00c6ff'/>
+      <stop offset='100%' stop-color='#0072ff'/>
+    </linearGradient>
+  </defs>
+  <rect width='300' height='360' rx='20' fill='url(#bgBg)'/>
+  <circle cx='150' cy='160' r='110' fill='#ffffff' opacity='0.08'/>
+  <!-- Water Splash Drop -->
+  <path d='M150 40 C150 40, 70 140, 70 200 A80 80 0 0 0 230 200 C230 140, 150 40, 150 40 Z' fill='url(#dropGrad)' opacity='0.9'/>
+  <!-- Friendly Mascot Character (Kangaroo with Purity Shield) -->
+  <g transform='translate(75, 110)'>
+    <!-- Ears -->
+    <ellipse cx='45' cy='15' rx='10' ry='25' fill='#f7941d' transform='rotate(-15 45 15)'/>
+    <ellipse cx='105' cy='15' rx='10' ry='25' fill='#f7941d' transform='rotate(15 105 15)'/>
+    <!-- Inner Ears -->
+    <ellipse cx='45' cy='15' rx='5' ry='16' fill='#ffe4b5' transform='rotate(-15 45 15)'/>
+    <ellipse cx='105' cy='15' rx='5' ry='16' fill='#ffe4b5' transform='rotate(15 105 15)'/>
+    <!-- Head -->
+    <ellipse cx='75' cy='50' rx='40' ry='32' fill='#f7941d'/>
+    <!-- Muzzle -->
+    <ellipse cx='75' cy='62' rx='22' ry='16' fill='#fff8dc'/>
+    <ellipse cx='75' cy='54' rx='7' ry='5' fill='#1a2a6c'/>
+    <!-- Eyes -->
+    <circle cx='60' cy='42' r='6' fill='#ffffff'/>
+    <circle cx='60' cy='42' r='3' fill='#1a2a6c'/>
+    <circle cx='90' cy='42' r='6' fill='#ffffff'/>
+    <circle cx='90' cy='42' r='3' fill='#1a2a6c'/>
+    <!-- Body -->
+    <path d='M45 75 C45 75, 30 140, 75 140 C120 140, 105 75, 105 75 Z' fill='#f7941d'/>
+    <ellipse cx='75' cy='105' rx='22' ry='25' fill='#fff8dc'/>
+    <!-- Shield Icon -->
+    <path d='M75 90 L90 98 V112 C90 120, 75 128, 75 128 C75 128, 60 120, 60 112 V98 Z' fill='#1a2a6c' stroke='#ffffff' stroke-width='2'/>
+    <path d='M68 106 L73 111 L82 101' fill='none' stroke='#00c6ff' stroke-width='2.5' stroke-linecap='round'/>
+  </g>
+  <text x='150' y='310' font-family='Arial, sans-serif' font-weight='800' font-size='18' fill='#ffffff' text-anchor='middle'>DR. KANGAROO</text>
+  <text x='150' y='330' font-family='Arial, sans-serif' font-weight='600' font-size='12' fill='#f7941d' text-anchor='middle'>19 Years of Water Expertise</text>
+</svg>

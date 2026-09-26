@@ -1,0 +1,28 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 450 100' width='450' height='100'>
+  <defs>
+    <linearGradient id='gradNavy' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#1a2a6c'/>
+      <stop offset='100%' stop-color='#0b1330'/>
+    </linearGradient>
+    <linearGradient id='gradOrange' x1='0%' y1='0%' x2='100%' y2='0%'>
+      <stop offset='0%' stop-color='#f7941d'/>
+      <stop offset='100%' stop-color='#ff5e36'/>
+    </linearGradient>
+    <linearGradient id='gradWater' x1='0%' y1='0%' x2='0%' y2='100%'>
+      <stop offset='0%' stop-color='#00c6ff'/>
+      <stop offset='100%' stop-color='#0072ff'/>
+    </linearGradient>
+  </defs>
+  <!-- Mascot / Symbol Icon: Stylized Kangaroo Water Drop -->
+  <g transform='translate(10, 10)'>
+    <circle cx='40' cy='40' r='38' fill='url(#gradNavy)' stroke='url(#gradOrange)' stroke-width='3'/>
+    <!-- Water Drop -->
+    <path d='M40 12 C40 12, 22 36, 22 48 A18 18 0 0 0 58 48 C58 36, 40 12, 40 12 Z' fill='url(#gradWater)'/>
+    <!-- Kangaroo Silhouette overlay inside drop -->
+    <path d='M35 52 C35 44, 42 38, 48 38 C52 38, 54 36, 52 34 C50 32, 44 32, 42 28 C42 28, 48 27, 49 30 C50 33, 55 35, 55 39 C55 45, 47 50, 47 54 L53 58 C53 58, 45 60, 39 58 Z' fill='#ffffff' opacity='0.95'/>
+  </g>
+  <!-- Text Brand -->
+  <text x='100' y='46' font-family='Arial, sans-serif' font-weight='900' font-size='28' fill='#1a2a6c' letter-spacing='1'>KANGAROO</text>
+  <text x='100' y='68' font-family='Georgia, serif' font-style='italic' font-weight='700' font-size='16' fill='#f7941d'>Water Purifiers Pvt. Ltd.</text>
+  <text x='100' y='84' font-family='Arial, sans-serif' font-size='10' font-weight='600' fill='#64748b' letter-spacing='2'>PURITY IN EVERY DROP • ISO 9001:2015</text>
+</svg>
