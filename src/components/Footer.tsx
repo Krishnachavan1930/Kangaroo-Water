@@ -226,9 +226,18 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>© {new Date().getFullYear()} Kangaroo Water Purifiers Pvt. Ltd. All Rights Reserved.</p>
-          <p className="text-[11px]">
-            Chhatrapati Sambhajinagar HQ • Buldhana Branch • Chikhli Branch
-          </p>
+          <div className="flex items-center gap-1.5 text-xs text-slate-300">
+            <span>Developed &amp; Maintained by</span>
+            <a
+              href="https://www.thinkbuild.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#f7941d] font-bold hover:underline transition-colors flex items-center gap-1"
+            >
+              <span>ThinkBuild</span>
+              <ArrowUpRight className="w-3 h-3 text-[#f7941d]" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
