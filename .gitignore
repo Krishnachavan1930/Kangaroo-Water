@@ -23,6 +23,9 @@
 # misc
 .DS_Store
 *.pem
+*.pdf
+brochure_text.txt
+public/images/real/
 
 # debug
 npm-debug.log*
